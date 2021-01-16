@@ -7,7 +7,7 @@ import java.util.Random;
 public class Population {
     private Individual population[];
     private double populationFitness = -1;
-     private Population(int populationSize) {
+    public Population(int populationSize) {
         this.population = new Individual[populationSize];
     }
     public Population(int populationSize, int chromosomeLength) {
